@@ -10,6 +10,11 @@
 # El ultimo argumento es estas
 #
  
+if [ $# = 0 ]; then
+    echo "No ingreso ningun argumento"
+    exit 0
+fi
+
 for last in $* ; do true
 done
 
