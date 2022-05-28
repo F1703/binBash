@@ -1,21 +1,21 @@
 #!/bin/bash
 
-Cree un shell que reciba un unico parametro ( el login de un usuario) y que muestre la siguiente informacion 
-    login
-    nombre completo del usuario
-    directorio home
-    shell que utiliza
-    una linea que indique si el usuario esta actualmente conectado o no.
-    procesos pertenecientes a dicho usuario. La informacion a mostrar para proceso debe ser el PID y la linea de ordenes que dio lugar a la creacion de dicho proceso
+# Cree un shell que reciba un unico parametro ( el login de un usuario) y que muestre la siguiente informacion 
+#     login
+#     nombre completo del usuario
+#     directorio home
+#     shell que utiliza
+#     una linea que indique si el usuario esta actualmente conectado o no.
+#     procesos pertenecientes a dicho usuario. La informacion a mostrar para proceso debe ser el PID y la linea de ordenes que dio lugar a la creacion de dicho proceso
 
-Se debe comprobar:
-    si las opciones y parametros son correctas
-    si el usuario que se pasa como parametro existe o no
+# Se debe comprobar:
+#     si las opciones y parametros son correctas
+#     si el usuario que se pasa como parametro existe o no
 
-Ademas, debe permitir las siguientes opciones
-    -p: solo muestra informacion de procesos.
-    -u: muestra toda la informacion excepto la referente a los procesos.
-    -h: muestra toda la informacion de ayuda (lo que hace el guion, su sistaxis, y significado de opciones y parametros)
+# Ademas, debe permitir las siguientes opciones
+#     -p: solo muestra informacion de procesos.
+#     -u: muestra toda la informacion excepto la referente a los procesos.
+#     -h: muestra toda la informacion de ayuda (lo que hace el guion, su sistaxis, y significado de opciones y parametros)
 
 
  
