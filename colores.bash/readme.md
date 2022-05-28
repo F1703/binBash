@@ -1,3 +1,3 @@
-# Colores en bash
+# Colores en Bash
 
 ![Screenshot](screenshot.png)
